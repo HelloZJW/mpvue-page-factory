@@ -6,6 +6,12 @@ README
 
 使用我的[mpvue-loader分支](https://github.com/HelloZJW/mpvue-loader)
 
+pagckage.json 中添加依赖
+```
+"mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git",
+"mpvue-page-factory": "^1.0.0",
+```
+
 在页面的main.js中
  ```javascript
 import pageFactory from 'mpvue-page-factory'
