@@ -1,6 +1,6 @@
 README
 ===========================
-解决mpvue多个页面公用一个mpvue的问题 [mpvue issue 140](https://github.com/Meituan-Dianping/mpvue/issues/140)
+解决mpvue多个页面公用一个vm对象的问题 [mpvue issue 140](https://github.com/Meituan-Dianping/mpvue/issues/140)
 
 ### 使用方法:
 
