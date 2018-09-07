@@ -1,5 +1,16 @@
 {
   "name": "mpvue-page-factory",
   "version": "1.0.0",
-  "typings": "types/index.d.ts"
+  "main": "index.js",
+  "author": "zhangjianwei",
+  "typings": "types/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloZJW/mpvue-page-factory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HelloZJW/mpvue-page-factory/issues"
+  },
+  "homepage": "https://github.com/HelloZJW/mpvue-page-factory#readme"
 }
