@@ -2,6 +2,9 @@
   "name": "mpvue-page-factory",
   "version": "1.0.0",
   "main": "index.js",
+  "files": [
+	  "index.js"
+	],
   "author": "zhangjianwei",
   "typings": "types/index.d.ts",
   "license": "MIT",
