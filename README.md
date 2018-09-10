@@ -36,7 +36,6 @@ Page(pageFactory(App))
 ```
 然后修改build/webpack.base.conf.js 中MpvueEntry.getEntry()方法的入参
 ```
-const fs = require('fs');
 const entry = MpvueEntry.getEntry({
   pages: './src/pages.js', //可以不填，缺省就是这个
   main: './src/main.js',  //可以不填，缺省就是这个
@@ -44,6 +43,7 @@ const entry = MpvueEntry.getEntry({
 })
 ```
 然后你会发现node_module/mpvue-entry/dist目录里面js文件内容发生了变化。
+
 ![image](https://user-images.githubusercontent.com/8361397/45264454-43671a00-b46f-11e8-8b4f-ecfd534a4755.png)
 
 enjoy，其他工程代码不需要修改
