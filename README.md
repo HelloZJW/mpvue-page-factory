@@ -23,7 +23,6 @@ Page(pageFactory(App))
 ### 如果你用了mpvue-entry:
 
 ```
-"mpvue-entry": "git+https://github.com/HelloZJW/mpvue-entry.git",
 "mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git",
 "mpvue-page-factory": "^1.0.0",
 ```
@@ -41,11 +40,7 @@ const fs = require('fs');
 const entry = MpvueEntry.getEntry({
   pages: './src/pages.js', //可以不填，缺省就是这个
   main: './src/main.js',  //可以不填，缺省就是这个
-  template: './src/template.js',
-  templateParser:function(paths){
-    let template = fs.readFileSync(paths.template).toString();
-    return template;
-  }
+  template: './src/template.js'
 })
 ```
 然后你会发现node_module/mpvue-entry/dist目录里面js文件内容发生了变化。
