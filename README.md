@@ -4,7 +4,18 @@ README
 
 ### 使用方法:
 
-使用我的[mpvue-loader分支](https://github.com/HelloZJW/mpvue-loader)
+#### !注意：master分支是基于1.1.2版本的，如果你现有工程用的是1.0.x的版本，因为目录结构不一样会有问题。2个方法解决:
+
+1. 直接使用我的1.0.x的分支，pagckage.json 中添加依赖
+
+```
+"mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git#patch1.0.x",
+"mpvue-page-factory": "^1.0.0",
+```
+2. 参考[升级指南](http://mpvue.com/change-log/2018.7.24/)修改工程配置
+
+
+#### 如果是现有工程使用的是1.1.x版本，直接使用使用[master分支](https://github.com/HelloZJW/mpvue-loader)
 
 pagckage.json 中添加依赖
 ```
@@ -12,7 +23,7 @@ pagckage.json 中添加依赖
 "mpvue-page-factory": "^1.0.0",
 ```
 
-在页面的main.js中
+#### 添加完依赖以后，需要修改页面的main.js入口文件为
  ```javascript
 import pageFactory from 'mpvue-page-factory'
 import App from './index'
