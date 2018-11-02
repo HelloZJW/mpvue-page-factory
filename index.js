@@ -62,7 +62,6 @@ export default function (App) {
       //mount 要在 mp.status = 'load';赋值之后，不然mount方法会重复添加微信Page
       //具体原因参考mpvue核心库源码，_initMP方法
       app.$mount();
-      callHook$1(rootVueVM, 'onLoad', query);
     },
 
     handleProxy: function handleProxy(e) {
