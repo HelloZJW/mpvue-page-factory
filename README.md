@@ -10,7 +10,7 @@ README
 
 ```
 "mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git#patch1.0.x",
-"mpvue-page-factory": "^1.0.0",
+"mpvue-page-factory": "^1.0.1",
 ```
 2. 参考[升级指南](http://mpvue.com/change-log/2018.7.24/)修改工程配置
 
@@ -20,7 +20,7 @@ README
 pagckage.json 中添加依赖
 ```
 "mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git",
-"mpvue-page-factory": "^1.0.0",
+"mpvue-page-factory": "^1.0.1",
 ```
 
 #### 添加完依赖以后，需要修改页面的main.js入口文件为
@@ -35,7 +35,7 @@ Page(pageFactory(App))
 
 ```
 "mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git",
-"mpvue-page-factory": "^1.0.0",
+"mpvue-page-factory": "^1.0.1",
 ```
 #### 配置方法:
 在你的pages.js相同目录下建一个template.js文件，此文件为入口模板；里面内容为:
