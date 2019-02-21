@@ -4,7 +4,7 @@ README
 
 ### 使用方法:
 
-#### !注意：master分支是基于1.1.2版本的，如果你现有工程用的是1.0.x的版本，因为目录结构不一样会有问题。2个方法解决:
+#### !注意：如果你现有工程用的是1.0.x的版本，因为目录结构不一样会有问题。2个方法解决:
 
 1. 直接使用我的1.0.x的分支，pagckage.json 中添加依赖
 
@@ -19,7 +19,7 @@ README
 
 pagckage.json 中添加依赖
 ```
-"mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git",
+"mpvue-loader": "git+https://github.com/HelloZJW/mpvue-loader.git#patch1.1.x",
 "mpvue-page-factory": "^1.0.1",
 ```
 
