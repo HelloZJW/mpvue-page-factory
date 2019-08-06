@@ -45,7 +45,7 @@ export default function (App) {
     // 生命周期函数--监听页面加载
     onLoad(query) {
       //页面加载的时候
-      const app = new Vue(App);
+      var app = new Vue(App);
       // 挂载Vue对象到page上
       this.$vm = app;
       var rootVueVM = app.$root;
